@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.texto{
+    margin-left: 150px;
+    
+}
+
+.texto h3{
+    text-align: center;
+    font-weight:100;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.texto p{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+}
+
+.botao {
+    margin-left: 55px;
+    margin-top: 20px;
+    border: transparent;
+    background-color: #3377FA;
+    color: white;
+    border-radius: 30px;
+    width: 150px;
+    height: 35px;
+}
+
+@media (max-width:420px){
+    .texto{
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    
+    .botao{
+        margin-right: 60px;
+    }
+  
+} 
+
+
+
+@media (max-width:1015px){
+    .container{
+        flex-direction: column;
+    }
+
+
+    .imagem{
+        margin-left: 200px;
+    }
+}
